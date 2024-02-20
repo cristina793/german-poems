@@ -1,0 +1,78 @@
+body{background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/085/original/pexels-alena-koval-961402.jpg?1708422617);
+background-size: cover ;
+
+background-repeat: no-repeat;
+}
+
+
+.container{
+    background-color: rgb(247, 249, 250);
+    opacity: 0.9;
+    border-radius: 10px;
+    max-width: 400px;
+    margin-top: 100px;
+    margin-left: 800px;
+padding: 50px;
+color: rgb(46, 4, 68);
+font-family: cursive; }
+
+h1{
+    text-align: center;
+    color: #CF9BA7;
+    padding: 10px 24px;
+}
+form{
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FDFFFC;
+    display:flex;  
+    justify-content: space-between;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+
+}
+.topic{
+    padding: 12px;
+    border: 1px solid rgba(207, 203, 203);
+    width: 80%;
+   font-size: 16px;
+   border-radius: 10px;
+  
+
+}
+
+.poem{
+    background-color: #FDFFFC;
+    font-size: 16px;
+    padding: 20px;
+    line-height: 2p; ;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+
+   
+}
+.submit-button{margin-left: 8px;
+    border: 1px solid rgba(207, 203, 203);
+    border-radius: 10px;
+    background-color: rgb(209, 173, 228);
+    color: rgb(245, 236, 236);
+    width: 150px;
+    font-size: 16px;
+   
+
+
+
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 800px;
+    margin-bottom: auto;
+    opacity: 0,9;
+    color: rgb(46, 4, 68);
+    font-family:cursive;
+    font-size: 13px;
+}
+
