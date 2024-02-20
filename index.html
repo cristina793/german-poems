@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>Document</title>
 </head>
@@ -11,43 +11,32 @@
     <div class="container"> 
     <header>
     <h1> Gedichte</h1>
-
 </header>
+
 <main>
-<form action="">
-    <input type="text" placeholder="Enter the topic of the German poem" class="topic" 
+   <form  id="poem-generator-form">
+    <input 
+    type="text" 
+    placeholder="Enter the topic of the German poem" 
+    class="topic" 
     autofocus
     required 
-    autocomplete="off"/>
+    autocomplete="off"
+    />
     <input type="submit" class="submit-button"/>
 </form>
 
-<div class="poem">
-    “Mailied” by Goethe
-    
-<br />
-
-Wie herrlich leuchtet
-Mir die Natur!
-Wie glänzt die Sonne!
-Wie lacht die Flur!
-Es dringen Blüten
-Aus jedem Zweig
-Und tausend Stimmen
-Aus dem Gesträuch
-Und Freud’ und Wonne
-Aus jeder Brust.
-O Erd’, o Sonne!
-O Glück, o Lust!
-O Lieb’, o Liebe!
-
-</div>
-</div>
-
-
+      <div class="poem" id="poem"></div>
+   
 </main>
-    <footer>This AI project was coded by Cristina Mihalachi, is open-sourced <a href="https://github.com/cristina793/deutsch-poems-generator" target="_blank">on GitHub</a> and  is  <a href="https://app.netlify.com/user/settings" target="_blank">hosted on Netlify</a></footer>
+    <footer>
+        This AI project was coded by
+         Cristina Mihalachi, 
+         is open-sourced <a href="https://github.com/cristina793/deutsch-poems-generator" target="_blank">on GitHub</a> 
+         and  is  <a href="https://app.netlify.com/user/settings" target="_blank">hosted on Netlify</a>
+    </footer>
+</div>
+
     <script src="src/index.js"></script>
-</body
->
+</body>
 </html>
