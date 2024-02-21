@@ -12,14 +12,15 @@
 <body>
     <div class="container"> 
     <header>
-    <h1> Gedichte</h1>
+    <h1> Deutsche Lyric</h1>
 </header>
 
 <main>
-   <form  id="poem-generator-form">
+    <div class="form-container">
+   <form  id="poem-generator-form" class="poem-generator">
     <input 
     type="text" 
-    placeholder="Enter the topic of the German poem" 
+    placeholder="Enter the topic of the poem.." 
     class="topic" 
     autofocus
     required 
@@ -27,9 +28,11 @@
     id="users-instruction"
     />
     <input type="submit" class="submit-button"/>
+    
 </form>
-
-      <div class="poem" id="poem"></div>
+<div class="hint">z.B. Liebe, Kindheit,Träume  </div>
+</div>
+      <div class="poem hidden" id="poem"></div>
    
 </main>
     <footer>

@@ -15,8 +15,13 @@ let instructionsInput=document.querySelector("#users-instruction");
 
 let apiKey="081f8a4700411o4a8f603dtcb57dabaf";
 let prompt=`Generate a German poem about ${instructionsInput.value}`;
-let context="User instructions are: You are a Poem expert and now all German Poets. Your misision is to generate a  poem in German of a popular German Poet. Make sure to follow the user instructions and at the begin, inside <strong><strong/> element to write the name of the poem and of the author . Separate each line with a <br />";
+let context="User instructions are: You are a Poem expert and now all German Poets. Your misision is to generate a  poem in German of a popular German Poet. Make sure to follow the user instructions and at the begin, inside <strong><strong/> element to write the name of the poem and of the author. Separate each line with a <br />";
 let apiURL= `https://api.shecodes.io/ai/v1/generate?prompt= ${prompt} &context=${context}&key=${apiKey}`;
+
+
+let poemElement=document.querySelector("#poem");
+poemElement.classList.remove("hidden");
+poemElement.innerHTML=`⌛Ein Gedicht über ${instructionsInput.value} verfassen<small class="generating">...</small>`
 
 console.log("generating poem");
 console.log(`Prompt: ${prompt}`);
