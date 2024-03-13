@@ -1,24 +1,17 @@
-body{background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/085/original/pexels-alena-koval-961402.jpg?1708422617);
-background-size: cover ;
 
-background-repeat: no-repeat;
-}
 
 
 .container{
-    background-color: rgb(247, 249, 250);
-    opacity: 0.9;
-    border-radius: 10px;
-    max-width: 400px;
-    margin-top: 65px;
-    margin-left: 800px;
+background-color: rgb(247, 249, 250);
+border-radius: 6px;
+max-width: 400px;
 padding: 50px;
-color: rgb(46, 4, 68);
-font-family: cursive; }
+color:#2D4059;
+font-family: "Manrope", sans-serif;}
 
 h1{
     text-align: center;
-    color: rgb(46, 4, 68);
+
     padding: 10px 24px;
 }
 .form-container{
@@ -44,15 +37,15 @@ form{
 }
 
 .topic{
-    padding: 12px;
-    border: 1px solid rgba(182, 163, 238, 0.5);
-    width: 90%;
-   font-size: 14px;
-   border-radius: 10px;
+padding: 12px;
+border: 1px solid #2D4059;
+width: 90%;
+font-size: 14px;
+border-radius: 10px;
 outline: none;
 }
 .topic:hover{
-    border-color: rgba(46, 4, 68);
+    border-color: rgb(34, 7, 139);
 }
 
 
@@ -74,16 +67,15 @@ outline: none;
 .submit-button{margin-left: 8px;
     border: 1px solid rgba(207, 203, 203);
     border-radius: 10px;
-    background-color: rgb(209, 173, 228);
+    background-color:#2D4059;
     color: rgb(245, 236, 236);
     width: 150px;
     font-size: 16px;
    
 }
 .submit-button:hover{
-    background-color: rgb(46, 4, 68);
-    color:white;
-
+  background-color: white;
+    color:#2D4059;
 }
 
 footer{
@@ -91,8 +83,6 @@ footer{
     margin-top: 60px;
    margin-bottom: 0;
     opacity: 0,9;
-    color: rgb(46, 4, 68);
-    font-family:cursive;
     font-size: 13px;
     
 }

@@ -21,7 +21,7 @@ let apiURL= `https://api.shecodes.io/ai/v1/generate?prompt= ${prompt} &context=$
 
 let poemElement=document.querySelector("#poem");
 poemElement.classList.remove("hidden");
-poemElement.innerHTML=`⌛Vielen Dank für ihre Geduld<small class="generating">...</small>`
+poemElement.innerHTML=`⌛Vielen Dank für Ihren Geduld<small class="generating">...</small>`
 
 
 axios.get(apiURL).then(displayPoem);
